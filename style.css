@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7fff7;
+  color: #272727;
+}
+
+.container {
+  padding: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  padding: 7px 10px;
+  border-radius: 7px;
+}
+
+.button-positive {
+  background-color: #4ecdc4;
+}
+
+.button-negative {
+  background-color: #ffe66d;
+}
+
+.color-pink {
+  background-color: #ff9fe5;
+}
+
+.color-blue {
+  background-color: #5adbff;
+}
+
+.color-green {
+  background-color: #2dd881;
+}
+
+.color-yellow {
+  background-color: #fec601;
+}
+
+.color-olive {
+  background-color: #bed558;
+}
+
+.code-explanation {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.code {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.certificate {
+  width: 100%;
+}
+
+.giphy-embed {
+  width: 70%;
+  height: 30%;
+}
+
+.hide {
+  display: none;
+}
+
